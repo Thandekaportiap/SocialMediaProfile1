@@ -18,13 +18,11 @@ const INITIAL_PROFILE = {
   firstName: 'Thandeka ',
   lastName: 'Mazibuko',
   profilePicture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKBGbVjgsbiJhf0OorySkWsT0sBVoYy1P5Fw&s',
-  bio: 'Senior Software Engineer with 6+ years of experience in React Native and mobile development.',
+  bio: 'Mobile and Web App Developer(React JS and React Native )',
   interests: [
     { id: 1, name: 'React Native', icon: 'react' },
     { id: 2, name: 'UX Design', icon: 'paint-brush' },
     { id: 3, name: 'AI', icon: 'microchip' },
-    { id: 4, name: 'Hiking', icon: 'tree' },
-    { id: 5, name: 'Photography', icon: 'camera' },
   ],
   connections: 487,
   views: 132,
@@ -39,10 +37,12 @@ const INITIAL_PROFILE = {
     { id: 4, name: 'TypeScript', level: 80 },
   ],
   education: [
-    { id: 1, school: 'Stanford University', degree: 'Master of Computer Science', year: '2017-2019' },
-    { id: 2, school: 'MIT', degree: 'Bachelor of Science in Computer Engineering', year: '2013-2017' },
-    { id: 3, school: 'Online Learning', degree: 'Advanced Mobile Development Certification', year: '2021' }
+    { id: 1, school: 'Boston City College', degree: 'CompTIA A+', year: '2017' },
+    { id: 2, school: 'SheCodes', degree: 'Introduction to Coding', year: '2023' },
+    { id: 3, school: 'Africa Agility', degree: 'Web Developer Training', year: '2024' },
+    { id: 4, school: 'mLab CodeTribe', degree: 'Web/Mobile App Development Training', year: '2024' }
   ]
+  
 };
 
 const ProfileScreen = ({ navigation }) => {
